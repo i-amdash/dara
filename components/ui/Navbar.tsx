@@ -8,17 +8,12 @@ const Navbar = () => {
                 <div className="">
                     <div className="header-logo">
                         <a href="/">
-                            <Image 
-                            src={'/next.svg'}
-                            alt='logo-image'
-                            width={160}
-                            height={36}
-                            />
+                            <p className='text-xl font-semibold text-black'> Daras <span className='text-primary'>Kitchen</span></p>
                         </a>
                     </div>
                 </div>
                 <div className="flex-row">
-                    <div className="main-navigation">
+                    <div className="flex w-[100%] h-[100%] justify-end align-center">
                         <button className='menu-toggle'>
                             <span>
                                 <span>
